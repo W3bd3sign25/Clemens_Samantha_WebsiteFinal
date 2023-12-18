@@ -1,11 +1,115 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <link rel="stylesheet" href="index.css">
-    <meta charset="utf-8">
-    <title></title>
-  </head>
-  <body>
-    <div></div>
-  </body>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KASAMA Website CSS</title>
+    <link rel="stylesheet" href="stylesheet/styles.css">
+    <link rel="javascript" href="Javascript/index.js">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+</head>
+<body>
+
+    <div id="mobile-menu" style="display: none;"> 
+        <button id="close-menu">X</button>
+        <p><a href="#">Home</a></p>
+        <p><a href="#">Menu</a></p>
+        <p><a href="#">Order</a></p>
+        <p><a href="#">Reservations</a></p>
+        <p><a href="#">Contact</a></p>
+        <p><a href="#">About Us</a></p>
+    </div>
+    <header class="grid-container col-2 header">
+            <img src="Images/Kasama Logo.png" width="75">
+            <nav class="nav">
+                <a href="#">Home</a>
+                <a href="#">Menu</a>
+                <a href="#">Order</a>
+                <a href="#">Reservations</a>
+                <a href="#">Contact</a>
+                <a href="#">About Us</a>  
+                <button id="mobile-button"><span class="material-symbols-outlined">Menu</span></button>
+            </nav>
+    </header>
+    <main>
+        <section>
+            <div>
+                <div class="intro-img">
+                    <img src="Images/kasama-introduction.jpg" alt="Food Image" width="1519">
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="betweenintro"></div>
+        </section>
+        <section>
+            <div class="flex-center about-section">
+                <div class="card flex-container-2">
+                    <div class="info1 padded">
+                        <h class="about"><strong>About</strong></h>
+                        <p>Genie Kwon and Timothy Flores, husband and wife co-owners and chefs, opened Kasama in July 2020 as a casual French morning bakery. Kasama quickly became popular as a bakery and a modern Filipino American restaurant located in the East Ukrainian Village neighborhood of Chicago, Illinois. They have received high praise with becoming the world’s first Filipino Michelin-starred restaurant among other awards.</p>
+                    </div>
+                    <div>
+                        <img src="Images/food 3-01.png" alt="Kasama Food Image" width="536">
+                    </div>
+                </div>
+            </div>
+                <div class="betweenstar">
+                    <img src="Images/michelinstar.jpg" alt="Food Image" width="1519">
+                </div>
+        </section>
+        <section>
+            <div class="align-center">
+                <h1 class="center-hr"><strong>Menus</strong></h1>
+            </div>
+            <div class="row">
+                <div class="column">
+                    <img src="images/croissant.png" alt="Daytime Eats Image" width="300" height="300">
+                    <h3><strong>Daytime</strong></h3><br>
+                </div>
+                <div class="column">
+                    <img src="images/dinner food-01.png" alt="Dinner Feasts Image" width="300" height="300">
+                    <h3><strong>Dinner</strong></h3><br>
+                </div>
+                <div class="column"> 
+                    <img src="images/drinks final-01.png" alt="Anytime Drinks Image" width="300" height="300">
+                    <h3><strong>Drinks</strong></h3><br>
+                </div>
+            </div>
+        </section>
+    </main>
+    <section class="footer-style">
+        <div class="flex-container-footer footer-color footer-text">
+            <div>
+             <p>1001 N. Winchester Ave.</p>
+             <p>Chicago, Illinois 60622</p><br>
+            <p>(773) 697-3790</p>
+        </div>
+        <section>
+            <div class="betweenfooterinfo"></div>
+    </section>
+     <div class="flex-container-footer footer-color footer-text">
+        <div>
+            <p>Menu</p>
+            <p>Order</p>
+            <p>Reservations</p>
+            <p>Contact</p>
+            <p>About Us</p>
+        </div>
+        <div class="footer-padding"></div>
+        <div class="social-media">
+            <div class="block-center">
+                <img src="images/white-instagram-icon.png" alt="Instagram" width="70px" height="70px">
+                <img src="images/white-facebook-icon.png" alt="Facebook" width="70px" height="70px">
+            </div>
+        </div>
+    </div>
+ <!--did in class-->
+    <footer>
+    <p>Samantha Clemens | Web Design I | 12.17.23</p>
+</footer>
+    <script src="Javascript/index.js"></script>
+</body>
 </html>
+
